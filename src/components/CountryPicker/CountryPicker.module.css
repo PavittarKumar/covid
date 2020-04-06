@@ -1,0 +1,6 @@
+.formControl{
+    width: 30%;
+    margin-bottom: 30px !important;
+    background-color: rgba(100, 148, 237, 0.384);
+    border-radius: 5px;
+}

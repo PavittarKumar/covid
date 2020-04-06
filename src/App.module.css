@@ -1,0 +1,39 @@
+body{
+    /* background-color: rgba(100, 148, 237, 0.315); */
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media(max-width:770px){
+    .container{
+        margin: 0 10%,
+    }
+    .image{
+        width:100%;
+    }
+}
+
+a{
+    padding: 15px;
+    color: Black;
+    font-size: large;
+    font-family: 'Kalam', cursive;
+    
+}
+
+p{
+    font-family: 'Kalam', cursive;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.938);
+}
