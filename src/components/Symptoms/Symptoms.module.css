@@ -11,7 +11,8 @@ h1{
 }
 
 .bigContainer{
-    background-color: rgb(247, 247, 75);
+    /* background-color: rgb(247, 247, 75); */
+    background-color: white;
     width: 100%;
     padding-right:15px ;
 }
