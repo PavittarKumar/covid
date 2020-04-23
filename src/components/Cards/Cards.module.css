@@ -1,11 +1,13 @@
 .container{
     margin: 50px 0px;
+    background-color: rgb(247, 247, 75);
+    width: 100%;
 }
 
 .card{
     margin:0 2% !important;
-    background-color: rgba(121, 100, 237, 0.568) !important;
-    color: white !important;
+    /* background-color: #FFFF66 !important; */
+    color: rgb(0, 0, 0) !important;
     box-shadow: 1px 1px 10px black !important;
 }
 .infected{

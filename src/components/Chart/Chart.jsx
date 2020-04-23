@@ -5,9 +5,10 @@ import { fetchDailyData } from '../../api';
 
 import styles from './Chart.module.css';
 
+
+
 const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   const [dailyData, setDailyData] = useState({});
-
   useEffect(() => {
     const fetchMyAPI = async () => {
       const initialDailyData = await fetchDailyData();
@@ -57,15 +58,19 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             fill: true,
           },
           ],
-        }}
+
+        }  
+      }
+
+        
       />
     ) : null
   );
 
   return (
-    <div className={styles.container}>
+         <div className={styles.container}>
       {country ? barChart : lineChart}
-    </div>
+        </div>
   );
 };
 

@@ -26,12 +26,22 @@ class App extends  React.Component{
         const {data,country}=this.state;
         return(
             <div className={styles.container}>
+                <div className='Image'>
                 <img className={styles.image} src={corona} alt='COVID-19'/>
+                </div>
                 <p>Stay Home Stay Safe</p>
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
-                <a href='https://iamazad.in'>Creator</a>            
+                <div><br/><p>
+                        Do follow the Rules provided by WHO.
+                    </p>
+                    </div>
+                    <div>
+                        <a href='https://iamazad.in'>Creator</a>        
+                        <a href='https://www.who.int/health-topics/coronavirus#tab=tab_1'>WHO</a> 
+                    </div>
+                       
             </div>
         )
     }
