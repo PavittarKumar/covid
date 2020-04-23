@@ -17,7 +17,7 @@ const Symptoms=()=>{
             </div>
             <div>
                 <h1>
-                    Some may experience
+                    Some may experience:
                 </h1>
                 <ul>
                     <li>Aches and Pain</li>
