@@ -1,5 +1,6 @@
 import React from 'react';
 import {Cards,Chart,CountryPicker} from './components';
+import Symptoms from './components/Symptoms/Symptoms';
 import styles from './App.module.css';
 import {fetchData} from './api'; 
 
@@ -33,11 +34,13 @@ class App extends  React.Component{
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
-                <div><br/><p>
+                <div><br/></div>
+                <Symptoms/>
+                <div><p>
                         Do follow the Rules provided by WHO.
                     </p>
                     </div>
-                    <div>
+                    <div className={styles.links}>
                         <a href='https://iamazad.in'>Creator</a>        
                         <a href='https://www.who.int/health-topics/coronavirus#tab=tab_1'>WHO</a> 
                     </div>

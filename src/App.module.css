@@ -28,7 +28,7 @@ body{
 a{
     padding: 15px;
     color: #000000;
-    font-size: small;
+    font-size: medium;
     font-family: 'Quicksand', sans-serif;
     width: 100%;
     text-align: center;
@@ -39,4 +39,10 @@ p{
     font-family: 'Quicksand', sans-serif;
     font-size: large;
     color: rgba(0, 0, 0, 0.938);
+}
+.links{
+    /* background-color: rgb(247, 247, 75); */
+    width: 100%;
+    text-align: center;
+    padding: 5px;
 }
