@@ -33,6 +33,37 @@ const Symptoms=()=>{
                 Helpline Number(INDIA) :+91-11-23978046 
         </p>
 
+        <div className={styles.container}>
+
+        <div>
+            <h1>
+                Stay Home. Save Lives.
+            </h1>
+            <ul>
+                <li><b>Stay</b> Home</li>
+                <li><b>Keep</b> a safe distance</li>
+                <li><b>Wash</b> hands often</li>
+                <li><b>Cover</b> your cough</li>
+                <li><b>Sick?</b> Call the above helpline</li>
+            </ul>
+            </div>
+
+            <div>
+                <h1>
+                   Bored? What to do:
+                </h1>
+
+                <ul>
+                    <li>Meditation</li>
+                    <li>Read Books</li>
+                    <li>Work from home if possible</li>
+                    <li>Learn new Skills</li>
+                    <li>Stay Updated with Corona Virus Updates</li>
+                </ul>
+            </div>
+             
+        </div>
+
         </div>
     );
 }

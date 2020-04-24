@@ -11,15 +11,14 @@ h1{
 }
 
 .bigContainer{
-    /* background-color: rgb(247, 247, 75); */
     background-color: white;
     width: 100%;
-    padding-right:15px ;
+    
 }
 
 .help{
-    color:black;
-
+    color:white;
+    background-color: black;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     padding-right:5px;
